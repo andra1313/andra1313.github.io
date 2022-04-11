@@ -1,0 +1,23 @@
+name: "Andra Florea"
+navbar:
+  title: "Andra Florea"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Curriculum Vitae"
+      href: curriculumvitae.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Pictures"
+      href: pictures.html
+    - text: "Publications etc."
+      href: publications_etc.html
+    - text: "Contact"
+      href: contact.html
+output:
+  html_document:
+    #css: bootstrap.css
+    theme: sandstone
+output_dir: "docs"

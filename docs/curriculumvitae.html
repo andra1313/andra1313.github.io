@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Curriculum vitae</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Andra Florea</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="curriculumvitae.html">Curriculum Vitae</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="pictures.html">Pictures</a>
+</li>
+<li>
+  <a href="publications_etc.html">Publications etc.</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Curriculum vitae</h1>
+
+</div>
+
+
+<div id="formations-et-perfectionnements" class="section level2">
+<h2><u>FORMATIONS ET PERFECTIONNEMENTS</u></h2>
+<div id="maîtrise-en-océanographie-2020-présent" class="section level3">
+<h3>Maîtrise en Océanographie 2020-présent</h3>
+<p>Université du Québec à Rimouski – Institut des sciences de la mer de Rimouski</p>
+</div>
+<div id="baccalauréat-en-biologie-cheminement-général-2017-2019" class="section level3">
+<h3>Baccalauréat en Biologie cheminement général 2017-2019</h3>
+<p>Université du Québec à Rimouski</p>
+</div>
+<div id="diplôme-en-techniques-de-bioécologie-2014-2017" class="section level3">
+<h3>Diplôme en Techniques de Bioécologie 2014-2017</h3>
+<p>Cégep de Saint-Laurent</p>
+</div>
+<div id="formation-durgences-en-mer-courte-2022" class="section level3">
+<h3>Formation d’Urgences en Mer – Courte 2022</h3>
+</div>
+<div id="formation-de-pilotage-de-dronephotogrammétrie-2020" class="section level3">
+<h3>Formation de pilotage de drone/photogrammétrie 2020</h3>
+</div>
+<div id="formation-de-bons-soins-aux-animaux-2020" class="section level3">
+<h3>Formation de bons soins aux animaux 2020</h3>
+</div>
+<div id="formation-darmes-à-feu-et-permis-de-chasse-2019" class="section level3">
+<h3>Formation d’armes à feu et permis de chasse 2019</h3>
+</div>
+<div id="sous-permis-de-baguage-doiseaux-2018" class="section level3">
+<h3>Sous-permis de baguage d’oiseaux 2018</h3>
+</div>
+<div id="certification-de-plongée-en-tenue-étanche-niveau-a-2017" class="section level3">
+<h3>Certification de plongée en tenue étanche niveau A 2017</h3>
+</div>
+<div id="permis-dembarcation-de-plaisance-2016" class="section level3">
+<h3>Permis d’embarcation de plaisance 2016</h3>
+</div>
+<div id="cours-de-premiers-soins-en-milieu-éloigné-2019" class="section level3">
+<h3>Cours de premiers soins en milieu éloigné 2019</h3>
+</div>
+<div id="formation-en-apiculture-urbaine-2014" class="section level3">
+<h3>Formation en apiculture urbaine 2014</h3>
+</div>
+<div id="permis-de-conduire-classe-5a-4b-2012" class="section level3">
+<h3>Permis de conduire classe 5A-4B 2012</h3>
+</div>
+</div>
+<div id="expériences-professionnelles" class="section level2">
+<h2><u>EXPÉRIENCES PROFESSIONNELLES</u></h2>
+<div id="biologiste-consultante-recensements-oiseaux-marins-2022" class="section level3">
+<h3>Biologiste consultante – Recensements oiseaux marins 2022</h3>
+<p>Environnement et Changement Climatique Canada – Service Canadien de la Faune</p>
+</div>
+<div id="auxiliaire-denseignement-laboratoire-ocean-data-view-2022" class="section level3">
+<h3>Auxiliaire d’enseignement – Laboratoire Ocean Data View 2022</h3>
+<p>UQAR – Cours de Milieu Marin de Alain Caron</p>
+</div>
+<div id="organisatrice-en-évènementiel-spectacles-et-festivals-2019-2021-2022" class="section level3">
+<h3>Organisatrice en évènementiel – Spectacles et festivals 2019-2021-2022</h3>
+<p>Observatoire d’Oiseaux de Rimouski, AGECAR, Cégep Saint-Laurent, etc.</p>
+</div>
+<div id="ornithologue-baguage-et-recensement-2015-2021" class="section level3">
+<h3>Ornithologue (Baguage et recensement) 2015 – 2021</h3>
+<p>Service Canadien de la Faune – Réserve de parc national de l’Archipel-de-Mingan OOT – RNF Cap-Tourmente, Dunes de Tadoussac et Grandes-Bergeronnes Observatoire d’Oiseaux de Rimouski – Rocher Blanc et Percé SÉPAQ – Mis en place d’un nouveau suivi d’Océanites cul-blanc sur l’île Bonaventure</p>
+</div>
+<div id="animatrice-spécialisée-en-ornithologie-2017-2021" class="section level3">
+<h3>Animatrice spécialisée en Ornithologie 2017-2021</h3>
+<p>Observatoire d’Oiseaux de Tadoussac (OOT) et Regroupement Québec Oiseaux – Camp de formation ornithologique pour les jeunes de 13 à 17 ans Festival des Oiseaux Migrateurs de Tadoussac – Guide-Interprète sur croisières</p>
+</div>
+<div id="auxiliaire-denseignement-taxonomie-avaire-2018-et-2021" class="section level3">
+<h3>Auxiliaire d’enseignement – Taxonomie avaire 2018 et 2021</h3>
+<p>UQAR – Cours d’Ornithologie de Magella Guillemette</p>
+</div>
+<div id="assistante-de-recherche-entraînement-modèle-intelligence-artificielle-2020" class="section level3">
+<h3>Assistante de recherche – Entraînement modèle Intelligence Artificielle 2020</h3>
+<p>UQAR – Laboratoire David Deslauriers avec World Wildlife Fund et Lemay AI</p>
+</div>
+<div id="biologiste-analyste-règlementaire-pour-le-milieu-marin-2019-2020" class="section level3">
+<h3>Biologiste – Analyste règlementaire pour le milieu marin 2019-2020</h3>
+<p>Pêches et Océans Canada – Direction régionale de la gestion des écosystèmes</p>
+</div>
+<div id="assistante-de-recherche-projet-de-suivi-écosystémique-à-lîie-bylot-2019" class="section level3">
+<h3>Assistante de recherche – Projet de suivi écosystémique à l’îIe Bylot 2019</h3>
+<p>UdeMoncton – Contrat 60 jours en milieu éloigné, protocoles divers sur la faune</p>
+</div>
+<div id="naturaliste-et-développement-de-matériel-pédagogique-2016-2019" class="section level3">
+<h3>Naturaliste et développement de matériel pédagogique 2016 – 2019</h3>
+<p>Explos-Nature – Écologie générale du fleuve St-Laurent</p>
+</div>
+<div id="inspectrice-aux-pesticides-2014" class="section level3">
+<h3>Inspectrice aux pesticides 2014</h3>
+<p>Gouvernement du Québec – MDDELCC – Rapports et inspections</p>
+</div>
+</div>
+<div id="réalisations" class="section level2">
+<h2><u>RÉALISATIONS</u></h2>
+<div id="bourses" class="section level3">
+<h3>Bourses :</h3>
+</div>
+<div id="meilleure-présentation-maîtrise---mon-projet-en-180-sec" class="section level3">
+<h3>2022 : Meilleure présentation – Maîtrise - Mon Projet en 180 sec</h3>
+</div>
+<div id="bourse-pour-congrès-canadian-conference-for-fisheries-research" class="section level3">
+<h3>Bourse pour congrès – Canadian Conference for Fisheries Research</h3>
+</div>
+<div id="personnalité-féminine-en-diversité-et-en-qualité-des-implications-uqar" class="section level3">
+<h3>2021 : Personnalité féminine en diversité et en qualité des implications – UQAR</h3>
+</div>
+<div id="bourse-de-la-meilleure-affiche-scientifique---révus-uqar" class="section level3">
+<h3>2019 : Bourse de la meilleure affiche scientifique - RÉVUS, UQAR</h3>
+</div>
+<div id="accueil-dexcellence-uqar" class="section level3">
+<h3>2017 : Accueil d’excellence – UQAR</h3>
+</div>
+<div id="excellence-de-limplication-en-environnement-cégep-de-saint-laurent" class="section level3">
+<h3>Excellence de l’implication en Environnement – Cégep de Saint-Laurent</h3>
+</div>
+<div id="présentation-à-la-canadian-conference-for-fisheries-research-et-à-la-réunion-annuelle-de-ressources-aquatiques-québec" class="section level3">
+<h3>Présentation à la Canadian Conference for Fisheries Research et à la Réunion annuelle de Ressources Aquatiques Québec</h3>
+<p>Biological characterization of Icelandic scallops (Chlamys islandica) and modeling of their occurrence using Sanikiluarmiut qaujimajatuqangit in the Belcher Islands, Nunavut</p>
+</div>
+<div id="co-auteure-irruption-of-the-white-breasted-nuthatch-in-eastern-north-america" class="section level3">
+<h3>Co-auteure : Irruption of the White-breasted Nuthatch in eastern North America</h3>
+<p>Publication prévue dans Wilson Journal of Ornithology</p>
+</div>
+<div id="co-auteure-no-general-shift-in-spring-migration-phenology-by-eastern-north-american-birds-since-1970" class="section level3">
+<h3>Co-auteure : No general shift in spring migration phenology by eastern North American Birds since 1970</h3>
+<p>Mai 2021 – Pré-publication dans bioRxiv avec André Desrochers et Pierre-Alexandre Dumas – Observatoire d’Oiseaux de Tadoussac et Université Laval</p>
+</div>
+<div id="regroupement-des-techniciennes-et-biologistes-graduḙ́ḙ̭̭s-du-québec" class="section level3">
+<h3>Regroupement des Technicien·ne·s et Biologistes Graduḙ́·ḙ̭̭·s du Québec</h3>
+<p>Création et administration de la page – Partage d’emploi, plus de 4500 membres</p>
+</div>
+<div id="coordination-au-bas-st-laurent-de-plusieurs-évènements-de-récolte-de-données-de-science-citoyenne-organisés-par-le-regroupement-québec-oiseaux-cornell-lab-of-ornithology-birds-canada-et-plusieurs-autres-organisations-en-ornithologie." class="section level3">
+<h3>Coordination au Bas-St-Laurent de plusieurs évènements de récolte de données de science citoyenne organisés par le Regroupement Québec Oiseaux, Cornell Lab of Ornithology, Birds Canada et plusieurs autres organisations en ornithologie.</h3>
+<ul>
+<li>Recensement des Oiseaux de Noël, Grand Dénombrement des Oiseaux de Février, eBird Global Big Day, Grand Jour d’Octobre, etc.</li>
+</ul>
+</div>
+<div id="projet-de-fin-de-programme" class="section level3">
+<h3>Projet de fin de programme</h3>
+<p>Analyse spatiale de l’utilisation du territoire du Merle d’Amérique en fonction du nerprun</p>
+</div>
+</div>
+<div id="bénévolat-et-implications-sociales" class="section level2">
+<h2><u>BÉNÉVOLAT ET IMPLICATIONS SOCIALES</u></h2>
+<div id="représentante-étudiante-2021-2022" class="section level3">
+<h3>Représentante étudiante (2021-2022)</h3>
+<p>Comité de protection des animaux de l’UQAR</p>
+</div>
+<div id="coordonnatrice-générale-2021-2022" class="section level3">
+<h3>Coordonnatrice générale (2021-2022)</h3>
+<p>Association Générale Étudiante du Campus À Rimouski (AGECAR)</p>
+</div>
+<div id="négociatrice-2020-2021" class="section level3">
+<h3>Négociatrice (2020-2021)</h3>
+<p>Convention collective du Syndicat des Étudiants et Étudiantes Salariées de l’UQAR</p>
+</div>
+<div id="exécutante-et-représentante-des-premières-années-à-la-maîtrise-2020-2021" class="section level3">
+<h3>Exécutante et Représentante des premières années à la maîtrise (2020-2021)</h3>
+<p>Conseil de module en Océanographie et Comité de Programme en Océanographie de l’UQAR-ISMER</p>
+</div>
+<div id="coordination-et-permanences-2017-2021" class="section level3">
+<h3>Coordination et permanences (2017-2021)</h3>
+<p>Bibliothèque féministe l’Ananas - collection unique rendue disponible à la population de Rimouski – Projet ayant remporté plusieurs bourses en entreprenariat</p>
+</div>
+<div id="vice-présidente-du-conseil-dadministration-2017-2021" class="section level3">
+<h3>Vice-Présidente du conseil d’administration (2017-2021)</h3>
+<p>Club des Ornithologues du Bas-St-Laurent</p>
+</div>
+<div id="admnistratrice-et-représentante-étudiante-du-secteur-technique-2015-2017" class="section level3">
+<h3>Admnistratrice et représentante étudiante du secteur Technique (2015-2017)</h3>
+<p>Conseil d’administration, Comité d’action et de concertation en environnement et Commissions des études - Cégep de Saint-Laurent</p>
+</div>
+<div id="exécutante-à-lassociation-étudiante-du-cégep-saint-laurent" class="section level3">
+<h3>Exécutante à l’Association étudiante du Cégep Saint-Laurent</h3>
+<p>Pédagogie, Trésorerie et Relations externes</p>
+<p>Plus de 700h d’activités bénévoles diverses : Agriculture urbaine, apiculture, comités thématiques, associations en santé, en environnement, en éducation, évènements sportifs, artistiques et scolaires, etc.</p>
+</div>
+</div>
+<div id="champs-de-compétences" class="section level2">
+<h2><u>CHAMPS DE COMPÉTENCES</u></h2>
+<p>###Compétences de travail  Aisance avec la législation et le droit  Maitrise du français, anglais, roumain et espagnol  Connaissance des logiciels R, RStudio, MATLAB, CloudCompare, SCALE, NetLogo, MobaXTerm (bash), OverLeaf (LaTeX), RAMAS Ecolab, ArcGIS, Sigmaplot, suite Office et Photoshop.</p>
+<p>###Compétences sociales  Leadership, débrouillardise, entregent, diplomatie  Aisance à travailler en collaboration avec plusieurs partenaires  Habiletés de communication développées  Vulgarisation scientifique au grand public</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

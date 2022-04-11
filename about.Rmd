@@ -1,0 +1,15 @@
+---
+title: "About me"
+---
+
+<img src = "images/ok.jpg" width = "35%" align = "right">
+
+**Andra Florea, M.Sc.**
+
+Ornithologue professionnelle accumulant plusieurs expériences, je suis aussi sensible et impliquée en ce qui concerne les enjeux sociaux et politiques. Active auprès du Conseil de module en Océanographie, du Comité de programme en Océanographie, dans le comité féministe de l’UQAR ainsi qu’auprès de Cinéma Politica, je négocie également la convention collective du Syndicat des Étudiants et Étudiantes Salarié-e-s de l’UQAR. À temps perdu, je fonde la page du Regroupement des TechnicienNEs et Biologistes GraduéEs du Québec, un lieu de réseautage unique, que j’administre depuis 2018 et qui comporte plus de 2800 membres. Munie d’une technique en bioécologie du Cégep de Saint-Laurent, d’un baccalauréat en biologie (écologie) de l’Université du Québec à Rimouski, je me suis joint au Laboratoire de Bioénergétique Avancée pour une maîtrise en Océanographie portant sur un stock de pêcherie de pétoncle d’Islande (Chlamys islandica) à Sanikiluaq, NU. À l’aide de plusieurs méthodes pour quantifier et qualifier ce stock, je tenterai d’effectuer des analyses schlérochronologiques sur les coquilles afin de retracer les conditions environnementales passées de la ressource et ainsi explorer l’impact potentiel d’un apport excédant d’eau douce dans le milieu et son effet sur la croissance de la ressource. Lors de mon baccalauréat, j’effectue des travaux de recherche sur l’impact du le stress oxydant dans la quête alimentaire chez le fou de Bassan (Morus bassanus) de la colonie de l’île Bonaventure. De plus, je travaille actuellement sur un manuscript sur la phénologie migratoire des oiseaux du Québec des 50 dernières années ainsi que sur le comportement migratoire irruptif de la Sitelle à poitrine blanche (Sitta carolinensis) dans l’est de l’Amérique du Nord.
+
+<!-- ## Professional and Research Associations -->
+
+<!-- [Ressources Aquatiques Québec](http://www.raq.uqar.ca//) 2020 – Present   -->
+
+
