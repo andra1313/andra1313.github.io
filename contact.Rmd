@@ -2,13 +2,14 @@
   title: "Contact"
 ---
 
-Department of Geography  
-Brandon University  
-270 – 18th Street  
-Brandon, Manitoba  
-R7A 6A9 Canada  
-E-mail: <koitera@brandonu.ca>
+Institut des sciences de la mer de Rimouski<br>
+Université du Québec à Rimouski<br>
+310 Allée des Ursulines<br>
+Rimouski, Québec<br>
+G5L 3A1 Canada<br>
+E-mail: <andra.florea@uqar.ca> | 
+        <florea.andra@gmail.com>
 
-Research Gate Profile: <https://www.researchgate.net/profile/Alexander_Koiter>  
-GitHub: [alex-koiter](https://github.com/alex-koiter)  
-ORCiD: <https://orcid.org/0000-0002-9355-9561>
+Research Gate Profile: <https://www.researchgate.net/profile/Andra-Florea>  
+GitHub: [andra1313](https://github.com/andra1313)  
+ORCiD: <https://orcid.org/0000-0002-3041-5130>
