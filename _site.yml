@@ -8,11 +8,11 @@ navbar:
       href: about.html
     - text: "Curriculum Vitae"
       href: curriculumvitae.html
-    - text: "Projects"
+    - text: "Projects (under construction)"
       href: projects.html
-    - text: "Pictures"
+    - text: "Pictures (under construction)"
       href: pictures.html
-    - text: "Publications etc."
+    - text: "Publications etc.(under construction)"
       href: publications_etc.html
     - text: "Contact"
       href: contact.html
